@@ -1,0 +1,42 @@
+/* Глобальные стили колоды. Минимальный шрифт — 1rem (см. AGENTS.md). */
+
+/* Список слева, картинка/схема справа */
+.slidev-layout .split-layout {
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	column-gap: 1.5rem;
+	align-items: center;
+}
+
+.slidev-layout .split-layout .split-media {
+	display: grid;
+	place-items: center;
+	row-gap: 1.5rem;
+	min-width: 0;
+}
+
+.slidev-layout .split-layout .split-media img {
+	max-width: 100%;
+	max-height: 22rem;
+	object-fit: contain;
+	border-radius: 0.5rem;
+}
+
+/* Логотип с белым текстом: подложка, чтобы читался и в светлой схеме */
+.slidev-layout .logo-dark {
+	background: var(--grey-black);
+	padding: 0.75rem 1rem;
+	border-radius: 0.75rem;
+}
+
+/* Схема под списком: центрируем и ограничиваем по высоте */
+.slidev-layout .diagram {
+	/* блочный поток + text-align: в grid/flex svg схлопывается до min-content */
+	text-align: center;
+	margin-top: 0.5rem;
+}
+
+/* Фраза-вывод под списком */
+.slidev-layout .after-em {
+	margin-top: 1rem;
+}

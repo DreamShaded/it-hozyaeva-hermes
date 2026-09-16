@@ -39,18 +39,65 @@ layout: simple-slide
 
 <!--
 
+[click]
+
+[click]
+
+[click]
+
+[click]
+
+[click]
+
 -->
 
 ---
 transition: slide-left
-layout: center
+layout: simple-slide
 ---
 
-## Hermes
+## О чём поговорим
+
+<v-clicks>
+
+- Что такое Hermes, чем отличается от OpenClaw, Ouroboros, etc
+- Мои сценарии использования
+- Семейные сценарии
+- Сценарии сына
+
+</v-clicks>
 
 <!--
 
+[click]
+
+[click]
+
+[click]
+
+[click]
+
 -->
+
+---
+src: ./pages/1_about_hermes.md
+---
+
+---
+src: ./pages/2_my_hermes.md
+---
+
+---
+src: ./pages/3_shared_tasks.md
+---
+
+---
+src: ./pages/4_son_hermes.md
+---
+
+---
+src: ./pages/5_summary.md
+---
 
 ---
 transition: slide-left
