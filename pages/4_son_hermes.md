@@ -16,6 +16,8 @@ layout: simple-slide
 
 ## Hermes сына
 
+<div class="split-layout">
+<div>
 <v-clicks>
 
 - Задачи
@@ -25,6 +27,11 @@ layout: simple-slide
 - Тренировки
 
 </v-clicks>
+</div>
+<div class="split-media">
+<img src="/images/slides/tecktonik-kid.webp" alt="Малыш Тотосс из клипа Jakarta — One Desire" />
+</div>
+</div>
 
 <!--
 
