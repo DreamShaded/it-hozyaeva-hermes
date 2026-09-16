@@ -18,7 +18,7 @@ layout: simple-slide
 
 <div class="diagram">
 
-```mermaid
+```mermaid {theme: 'base'}
 flowchart TB
   H[Hermes] --> P[Почта]
   H --> C[Календарь]
@@ -163,7 +163,7 @@ layout: simple-slide
 
 <div class="diagram">
 
-```mermaid
+```mermaid {theme: 'base'}
 flowchart LR
   M[Медси] --> P[Парсер]
   I[Invitro] --> P

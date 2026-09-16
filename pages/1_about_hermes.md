@@ -67,7 +67,7 @@ layout: simple-slide
 </div>
 <div class="split-media">
 
-```mermaid
+```mermaid {theme: 'base'}
 flowchart TB
   H[Hermes] --> U[USER]
   H --> M[MEMORY]

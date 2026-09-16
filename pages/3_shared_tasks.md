@@ -28,7 +28,7 @@ layout: simple-slide
 </div>
 <div class="split-media">
 
-```mermaid
+```mermaid {theme: 'base'}
 flowchart TB
   P[Родитель, диспетчер] --> K[Kanban]
   K <--> A[Мой Hermes]
