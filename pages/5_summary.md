@@ -59,15 +59,25 @@ layout: simple-slide
 
 ## Выводы
 
+<div class="split-layout">
+<div>
 <v-clicks>
 
 - Бесполезно на детерминированных задачах
 - Но прикольно!
 - И немного удобно
+- Стоимость: от 10 до 40 долларов в месяц + поддержка
 
 </v-clicks>
+</div>
+<div class="split-media">
+<img src="/images/slides/this-is-fine.webp" alt="Мем This is fine" />
+</div>
+</div>
 
 <!--
+
+[click]
 
 [click]
 
