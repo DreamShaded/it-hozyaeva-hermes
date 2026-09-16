@@ -16,6 +16,8 @@ layout: simple-slide
 
 ## Планы
 
+<div class="split-layout">
+<div>
 <v-clicks>
 
 - Покупка еды и ништяков
@@ -23,6 +25,11 @@ layout: simple-slide
 - Тренировки
 
 </v-clicks>
+</div>
+<div class="split-media">
+<img src="/images/slides/stonks.webp" alt="Мем Stonks" />
+</div>
+</div>
 
 <!--
 
